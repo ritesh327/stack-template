@@ -1,15 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato:wght@100&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: whitesmoke;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-.header{
+
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+.main-nav {
+    padding: 15px 0;
+}
+
+.logo-img {
+    height: 26px;
+}
+
+.navbar-ul {
+    list-style: none;
+}
+
+.navbar-li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar-li__link {
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.navbar-li__link:hover {
+    color: #252525;
+}
+
+.banner {
+    margin: 30px 0;
+}
+
+.banner-text {
+    align-self: center;
+}
+
+.banner-text__heading {
+    color: #252525;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.banner-text__para {
+    color: #808080;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 24px;
+}
+
+
+
+/*.header{
     overflow: hidden;
     background-color: black;
     display: flex;
@@ -62,7 +133,7 @@ body{
     color: gray;
 }
 /*styling nav bar*/
-nav{
+/*nav{
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -114,10 +185,10 @@ nav a:hover{
 .btn2:hover{
     background-color:rgb(27, 27, 172);
     border: 1px solid black;
-}
+}*/
 /*stying continer1*/
 
-.row1{
+/*.row1{
     margin-left: 6vw;
     align-items: center;
     justify-content:space-between;
@@ -155,7 +226,7 @@ nav a:hover{
   }
   .colume2 img{
 
-  }
+  }*/
  
 
 
