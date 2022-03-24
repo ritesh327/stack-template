@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+.header{
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    height: 8vh;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 120px;
+    margin: 20px;
+}
+.btn{
+    background-color: rgb(72, 207, 72);
+    width: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: auto;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all 0.3s;
+    
+}
+.btn:hover{
+    background-color: rgb(84, 185, 84);
+}
+
+.btn a{
+    text-decoration: none;
+}
+.row{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 6vw;
+    padding: 10px;
+}
+.row img{
+    width: 20px;
+}
+.right a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+.right i{
+    color: gray;
+}
+/*styling nav bar*/
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6vw;
+    font-size: 10px;
+    padding: 3px;
+    margin-right: 6vw;
+}
+nav .logo img{
+    width: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    
+}
+nav a:hover{
+    color: black;
+
+}
+.btn1{
+    background-color: whitesmoke;
+    font-size: 10px;
+    width: 10vw;
+    height: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color:whitesmoke;
+    border: 1px solid black;
+}
+.btn2{
+    background-color: rgb(93, 93, 212);
+    font-size: 10px;
+    width: 10vw;
+    
+    height: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btn2 a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn2:hover{
+    background-color:rgb(27, 27, 172);
+    border: 1px solid black;
+}
+/*stying continer1*/
+
+.row1{
+    margin-left: 6vw;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 12vw;
+    justify-items: center;
+    flex-direction: row;
+    grid-row: auto;
+}
+.colume1 {
+    font-family: 'Baloo Bhaijaan 2', cursive; 
+    color: grey;
+    margin-top: 12vw;
+    margin-left: 9vw;
+}
+.btn3{
+    background-color:  rgb(93, 93, 212);
+    width: 10vw;
+    border: black solid 1px;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 4vw;
+    margin-top: 30px;
+}
+.btn3 a{
+    color: white;
+    text-decoration: none;
+}
+
+  .colume2{
+      width: 50vw;
+      display: flex;
+      height: 40vw;
+      margin-left: 10vw;
+      
+  }
+  .colume2 img{
+
+  }
+ 
+
+
+
+    
+    
+
